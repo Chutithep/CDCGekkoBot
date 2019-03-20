@@ -23,7 +23,6 @@ config.watch = {
   // LimitAmount is amount of currency to buy an asset. Not All-in.
   // You have to understand money management and portfolio design.
   // Supported exchanges: Binance, Bitfinex, Poloniex.
-  // If you want to use the original bot please use this: git clone git://github.com/askmike/gekko.git -b stable
 
 
   // You can set your own tickrate (refresh rate).
