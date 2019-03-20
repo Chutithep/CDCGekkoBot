@@ -123,7 +123,7 @@ Trader.prototype.getPortfolio = function(callback) {
     }
 
     if(_.isObject(currency) && _.isNumber(+currency.available) && !_.isNaN(+currency.available))
-      currencyAmount = this.LimitAmount; //+currency.available;
+      currencyAmount = this.LimitAmount;
     else {
       currencyAmount = 0;
     }
