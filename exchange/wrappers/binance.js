@@ -183,7 +183,7 @@ Trader.prototype.getPortfolio = function(callback) {
     const assetAmount = parseFloat(_.find(data.balances, findAsset).free);
 
     const findCurrency = item => item.asset === this.currency;
-    const currencyAmount = this.LimitAmount; //parseFloat(_.find(data.balances, findCurrency).free);
+    const currencyAmount = this.LimitAmount;
 
     if (!_.isNumber(assetAmount) || _.isNaN(assetAmount)) {
       assetAmount = 0;
