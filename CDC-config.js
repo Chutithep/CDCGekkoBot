@@ -17,8 +17,8 @@ config.watch = {
 
   // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
   exchange: 'binance',
-  currency: 'USDT',
-  asset: 'BTC',
+  currency: 'BTC',
+  asset: 'LTC',
   LimitAmount: 0.05,
   // LimitAmount is amount of currency to buy an asset. Not All-in.
   // You have to understand money management and portfolio design.
