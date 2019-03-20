@@ -254,7 +254,7 @@ Trader.prototype.getPortfolio = function(callback) {
     }
 
     var assetAmount = parseFloat( data[this.asset] );
-    var currencyAmount = this.LimitAmount; //parseFloat( data[this.currency] );
+    var currencyAmount = this.LimitAmount;
 
     if(
       !_.isNumber(assetAmount) || _.isNaN(assetAmount) ||
