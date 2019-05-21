@@ -1,6 +1,6 @@
 Modified Gekko Bot.
 
-This modification allowed for custom position size specification in default config.
+This modification allowed for custom position size specification in CDC-config.js file.
 
 Supported exchanges: Binance, Bitfinex, Poloniex
 
